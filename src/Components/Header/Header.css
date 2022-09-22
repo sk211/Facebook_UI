@@ -1,0 +1,88 @@
+.header {
+    height: 56px;
+    position: fixed;
+    box-shadow: -1px 1px 19px -8px grey;
+background-color: #fff;
+z-index: 1;
+
+}
+
+.header_main svg {
+    width: 32px;
+
+    color: var(--secondary-icon)
+}
+.header_right svg {
+    font-size: 30px;
+    color: var(--secondary-icon)
+}
+
+.header_main svg:hover {
+    color: var(--fds-blue-60)
+}
+
+.header_main {
+    align-items: center;
+    font-size: 25px;
+}
+svg.facebook_icon {
+    font-size: 42px;
+    margin: 0px 12px;
+}
+
+.header_search button {
+    color: inherit;
+    border: none;
+}
+
+.header_search [input] {
+    border:none
+}
+
+input.search_icon {
+    border: none;
+    background: transparent;
+}
+
+.header_search {
+    /* border: 1px solid #333; */
+    border-radius: 34px;
+    width: 233px;
+    padding: 6px;
+    background: var(--fds-black-alpha-10);
+}
+
+.header_left  {
+    padding-top: 10px;
+}
+
+svg.facebook_search {
+    margin: 0 10px;
+}
+
+input.search_icon:focus {
+    border: none;
+}
+
+button {
+    border: none;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header_right svg {
+    color: #060606;;
+    width: 23px;
+
+}
+.icon {
+    padding: 8px 10px;
+    background: #3333331f;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}

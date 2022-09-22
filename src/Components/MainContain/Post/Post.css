@@ -1,0 +1,29 @@
+.whoPost img {
+    border-radius: 50%;
+}
+
+.mainPostShow {
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.whoPost img {
+    border-radius: 50%;
+}
+
+.postImage img {
+    width: 100% !important;
+    object-fit: cover;
+}
+.mainSinglePost {
+    margin-top: 10px;
+    background: #fff;
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: 1px solid #33333342;
+}
+.whoPost span:nth-child(2) {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 13px;
+}
